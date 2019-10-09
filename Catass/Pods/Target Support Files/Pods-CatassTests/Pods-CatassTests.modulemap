@@ -1,0 +1,6 @@
+module Pods_CatassTests {
+  umbrella header "Pods-CatassTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

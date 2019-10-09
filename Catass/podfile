@@ -1,0 +1,15 @@
+platform :ios, '11.0'
+
+target 'Catass' do
+  # Pods for Catass
+  pod 'RxSwift', '~> 5'
+  pod 'RxCocoa', '~> 5'
+  pod 'SnapKit', '~> 5.0.0'
+  pod 'PKHUD', '~> 5.0'
+
+  target 'CatassTests' do
+    inherit! :search_paths
+    # Pods for testing
+      pod 'Nimble'
+  end
+end
