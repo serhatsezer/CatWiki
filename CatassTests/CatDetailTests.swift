@@ -25,7 +25,7 @@ class CatDetailTests: XCTestCase {
     }
     
     func test_cat_detail_viewModel_return_right_traits_format() {
-        let expectedResult = "Adaptability: 1 - Child friendly: 1"
+        let expectedResult = "Adaptability: 5 - Child friendly: 4"
         expect(self.catDetailViewModel.traits).to(equal(expectedResult))
     }
     
