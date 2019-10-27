@@ -35,6 +35,7 @@ class ErrorView: UIView {
     
     private func commonInit() {
         addSubview(errorLabel)
+        self.isUserInteractionEnabled = false
         errorLabel.snp.makeConstraints { $0.edges.equalToSuperview() }
     }
 }
